@@ -1,0 +1,412 @@
+
+   
+    {
+      "intents": [
+        {
+          "tag": "greeting",
+          "patterns": [
+            "Hello, Iris",
+            "Good morning, Iris",
+            "Greetings, iris",
+            "Hi there, iris"
+          ],
+          "responses": [
+            "Good morning, sir. How may I assist you today?",
+            "Greetings. What can I help you with, boss?",
+            "Hello! I'm at your service, boss.",
+            "Hi there,  How can I support your endeavors today?"
+          ]
+        },
+        {
+          "tag": "office_hours",
+          "patterns": [
+            "What are your working hours?",
+            "When can I reach you?",
+            "What's your availability?"
+          ],
+          "responses": [
+            "I'm available 24/7 to assist you with your startup journey.",
+            "You can reach out to me anytime you need help or advice.",
+            "I'm at your service around the clock,."
+          ]
+        },
+
+      
+        {
+          "tag": "Psoriasis",
+          "patterns": [
+            "I've noticed red patches of skin covered with thick, silvery scales...",
+            "There are small scaling spots on my skin, predominantly on my torso...",
+            "My nails have become pitted, ridged, and I'm losing them...",
+            "I've been experiencing stiff and swollen joints alongside skin problems...",
+            "I have itchy, burning, and sore skin...",
+            "My skin gets very dry and can crack and bleed...",
+            "I see patches that are thick and red with white scales on top..."
+          ],
+          "responses": [
+            "It's important to keep your skin moisturized. Look for over-the-counter products that contain salicylic acid or coal tar for relief.",
+            "Consider talking to your healthcare provider about phototherapy. Carefully managed exposure to sunlight can improve symptoms.",
+            "Remember, while psoriasis is not curable, it can be managed. Stress reduction, a healthy diet, and avoiding triggers are key.",
+            "You might want to discuss prescription options with a dermatologist, such as topical treatments, oral medications, or biologics.",
+            "Regular exercise can help reduce joint stiffness and swelling. Swimming can be particularly beneficial for psoriatic arthritis.",
+            "Keep the affected skin clean and covered to help reduce irritation and protect the skin. Avoid scratching to prevent infection.",
+            "I'm here to support you in managing psoriasis. Together, we can find the best approach to keep your symptoms at bay."
+          ]
+        },
+
+        {
+          "tag": "Type 2 Diabetes",
+          "patterns": [
+            "I've been feeling very thirsty and urinating more often than usual...",
+            "I'm experiencing unexpected weight loss and feeling very tired...",
+            "I have cuts or wounds that heal very slowly...",
+            "I've noticed tingling, numbness, or pain in my hands or feet...",
+            "I am always hungry, even though I eat regularly...",
+            "My vision has become blurry and I can't see details..."
+          ],
+          "responses": [
+            "Staying hydrated is important, but excessive thirst can be a sign of high blood sugar levels. It's wise to consult a healthcare provider.",
+            "Sudden weight loss and fatigue may indicate your body isn’t able to get energy from food and is instead breaking down fats and muscles for energy. A medical check-up is advisable.",
+            "Slow healing of wounds, especially on the feet, is a common concern for diabetes. Keeping blood sugar levels under control is crucial.",
+            "Nerve damage due to high blood sugar can cause sensations like tingling or pain. Proper diabetes management and regular foot care are important.",
+            "Feeling constantly hungry can be related to insulin resistance. Eating complex carbohydrates and proteins can help manage hunger pangs.",
+            "Blurry vision may result from high blood sugar levels affecting your eye's ability to focus. If symptoms persist, please see an eye specialist immediately."
+          ]
+        },
+
+        {
+          "tag": "Migraine",
+          "patterns": [
+            "I experience severe headaches that last for hours or even days...",
+            "I'm sensitive to light and sound when I have a headache...",
+            "I sometimes see spots or flashing lights before a headache starts..."
+          ],
+          "responses": [
+            "These symptoms could indicate a migraine. Identifying and avoiding migraine triggers can be an effective way to manage them.",
+            "Over-the-counter pain relief can be effective, but if migraines are frequent or severe, prescription medications may be necessary.",
+            "It's also beneficial to maintain a headache diary to track the frequency and triggers of your migraines for your healthcare provider."
+          ]
+        },
+
+        {
+          "tag": "Depression",
+          "patterns": [
+            "I've been feeling persistently sad and have lost interest in activities I used to enjoy...",
+            "I'm having trouble sleeping and feel tired all the time...",
+            "I feel hopeless and have trouble concentrating on my daily tasks..."
+          ],
+          "responses": [
+            "These feelings can be indicative of depression. It's important to talk to someone about how you're feeling, whether it's a loved one or a professional.",
+            "Regular physical activity, a healthy diet, and a regular sleep schedule can help manage symptoms of depression.",
+            "If you're having thoughts of self-harm or suicide, it's crucial to seek immediate help from a healthcare professional or a crisis hotline."
+          ]
+        },
+
+        {
+          "tag": "GERD",
+          "patterns": [
+            "I often have heartburn and a sour taste in the mouth...",
+            "I experience chest pain after eating or when lying down...",
+            "I have difficulty swallowing and feel like food is stuck in my throat..."
+          ],
+          "responses": [
+            "These can be signs of acid reflux. It's recommended to eat smaller meals, avoid lying down after eating, and avoid spicy and fatty foods.",
+            "Over-the-counter antacids may provide temporary relief, but if symptoms persist, please consult a healthcare provider.",
+            "Chronic GERD can lead to more serious conditions, so it's important to get a proper diagnosis and treatment plan."
+          ]
+        },
+
+        {
+          "tag": "Asthma",
+          "patterns": [
+            "I've been wheezing and coughing a lot, especially at night...",
+            "I feel a tightness in my chest and it's hard to catch my breath...",
+            "My breathing problems get worse when I exercise or are exposed to cold air..."
+          ],
+          "responses": [
+            "These are common asthma symptoms. Avoiding triggers and using prescribed inhalers can help manage these symptoms.",
+            "Regular check-ups with a pulmonologist are crucial for maintaining good asthma control.",
+            "Consider developing an asthma action plan with your healthcare provider to know what to do during an asthma attack."
+          ]
+        },
+
+        {
+          "tag": "Hypertension",
+          "patterns": [
+            "I often have headaches and sometimes dizziness...",
+            "My heart sometimes beats fast, and I feel short of breath...",
+            "I feel chest pain and palpitations occasionally...",
+            "I've been experiencing nosebleeds more frequently..."
+          ],
+          "responses": [
+            "These symptoms may be indicative of high blood pressure. It's important to monitor your blood pressure regularly.",
+            "Limiting salt intake, regular exercise, and stress management can help control hypertension. Please consult your doctor.",
+            "If chest pain or shortness of breath is severe or persistent, seek immediate medical attention as these can be signs of a hypertensive crisis."
+          ]
+        },
+
+        {
+          "tag": "UTI",
+          "patterns": [
+            "It burns when I urinate...",
+            "I need to go to the bathroom more often than usual...",
+            "My urine looks cloudy, and sometimes it's tinged with blood...",
+            "I have pain in my lower abdomen..."
+          ],
+          "responses": [
+            "Drinking plenty of water can help flush out the urinary tract and relieve symptoms.",
+            "Cranberry juice or supplements might prevent UTIs, but they are not a cure. Antibiotics are usually required for treatment.",
+            "It's important to see a healthcare provider for proper diagnosis and treatment to prevent the infection from spreading."
+          ]
+        },
+
+        {
+          "tag": "UTI",
+          "patterns": [
+            "It burns when I urinate...",
+            "I need to go to the bathroom more often than usual...",
+            "My urine looks cloudy, and sometimes it's tinged with blood...",
+            "I have pain in my lower abdomen..."
+          ],
+          "responses": [
+            "Drinking plenty of water can help flush out the urinary tract and relieve symptoms.",
+            "Cranberry juice or supplements might prevent UTIs, but they are not a cure. Antibiotics are usually required for treatment.",
+            "It's important to see a healthcare provider for proper diagnosis and treatment to prevent the infection from spreading."
+          ]
+        },
+
+        {
+          "tag": "Insomnia",
+          "patterns": [
+            "I have trouble falling asleep at night...",
+            "I wake up during the night and can't go back to sleep...",
+            "I wake up too early in the morning and feel tired during the day...",
+            "Even when I sleep, I feel like it's not restful..."
+          ],
+          "responses": [
+            "Establishing a regular sleep routine and ensuring a comfortable sleep environment may improve your sleep.",
+            "Avoiding caffeine, heavy meals, and electronics before bed can also help combat insomnia.",
+            "Cognitive Behavioral Therapy for Insomnia (CBT-I) has been effective for many people. Consider speaking to a professional."
+          ]
+        },
+
+        {
+          "tag": "IBS",
+          "patterns": [
+            "I often have abdominal pain and bloating...",
+            "I experience constipation and sometimes diarrhea...",
+            "Eating certain foods seems to trigger my stomach discomfort...",
+            "I feel gassy and have mucus in my stool..."
+          ],
+          "responses": [
+            "Dietary changes, such as increasing fiber intake or eliminating trigger foods, may alleviate IBS symptoms.",
+            "Stress management techniques, like mindfulness and yoga, can also help manage IBS.",
+            "For persistent or severe symptoms, it's important to consult with a gastroenterologist for targeted treatments."
+          ]
+        },
+
+        {
+          "tag": "Osteoarthritis",
+          "patterns": [
+            "My joints are stiff, especially in the morning...",
+            "I hear a cracking or clicking sound when I bend my knees...",
+            "The joints in my hands and fingers are swollen and tender...",
+            "I can't move as well as I used to because of joint pain and stiffness..."
+          ],
+          "responses": [
+            "Maintaining a healthy weight and staying active are important in managing osteoarthritis symptoms.",
+            "Physical therapy and joint-strengthening exercises can be beneficial. Discuss with your healthcare provider.",
+            "If over-the-counter pain relievers are not effective, your doctor may prescribe stronger medication."
+          ]
+        },
+
+        {
+          "tag": "Allergic Rhinitis",
+          "patterns": [
+            "I have a runny or stuffy nose all the time...",
+            "My eyes, they itch and are red and watery...",
+            "I can't stop sneezing and sometimes I have a sore throat or cough...",
+            "I feel pressure in my sinuses and have headaches..."
+          ],
+          "responses": [
+            "These symptoms can be indicative of hay fever. Over-the-counter antihistamines and decongestants may help.",
+            "Reducing exposure to allergens, such as pollen, dust mites, and pet dander, is essential for symptom relief.",
+            "Consider visiting an allergist for allergy testing and discussing long-term treatment options, such as immunotherapy."
+          ]
+        },
+
+        {
+          "tag": "Celiac Disease",
+          "patterns": [
+            "Eating bread or pasta causes me discomfort and bloating...",
+            "I've had diarrhea and abdominal pain that doesn't seem to go away...",
+            "I've been experiencing unexpected weight loss and feel fatigued all the time..."
+          ],
+          "responses": [
+            "These symptoms may suggest celiac disease, which is managed by strictly adhering to a gluten-free diet.",
+            "Consult with a healthcare provider for testing and confirmation of celiac disease before starting a gluten-free diet.",
+            "A registered dietitian can help develop a balanced gluten-free eating plan to ensure you're getting all necessary nutrients."
+          ]
+        },
+        {
+          "tag": "Celiac Disease",
+          "patterns": [
+            "Eating bread or pasta causes me discomfort and bloating...",
+            "I've had diarrhea and abdominal pain that doesn't seem to go away...",
+            "I've been experiencing unexpected weight loss and feel fatigued all the time..."
+          ],
+          "responses": [
+            "These symptoms may suggest celiac disease, which is managed by strictly adhering to a gluten-free diet.",
+            "Consult with a healthcare provider for testing and confirmation of celiac disease before starting a gluten-free diet.",
+            "A registered dietitian can help develop a balanced gluten-free eating plan to ensure you're getting all necessary nutrients."
+          ]
+        },
+        {
+          "tag": "Anemia",
+          "patterns": [
+            "I've been feeling weak and have trouble breathing after simple activities...",
+            "I look pale and feel dizzy often...",
+            "My heartbeat feels irregular and I sometimes feel chest pain..."
+          ],
+          "responses": [
+            "These symptoms could indicate anemia. Consuming iron-rich foods or taking iron supplements might help, but it's important to determine the cause of anemia.",
+            "Ensure you get a proper diagnosis, as treatment varies depending on the type of anemia.",
+            "Regular check-ups and blood tests can help monitor and manage anemia effectively."
+          ]
+        },
+        {
+          "tag": "ADHD",
+          "patterns": [
+            "I have a hard time focusing on tasks and get easily distracted...",
+            "I'm frequently losing things and forget appointments or obligations...",
+            "I tend to interrupt others and have trouble waiting my turn during conversations..."
+          ],
+          "responses": [
+            "ADHD can affect both children and adults and may require strategies to help with organization and time management.",
+            "Behavioral therapy can be helpful, and there are medications that can improve focus and attention. Discuss these options with a healthcare provider.",
+            "Creating a structured environment and a routine can provide significant benefits to someone with ADHD."
+          ]
+        },
+        {
+          "tag": "Seasonal Affective Disorder",
+          "patterns": [
+            "I feel depressed mainly during the winter months...",
+            "I'm sleeping too much and still feel drowsy during the day...",
+            "I'm craving carbs and gaining weight..."
+          ],
+          "responses": [
+            "These could be symptoms of Seasonal Affective Disorder. Getting plenty of sunlight can help, as can light therapy with a SAD lamp.",
+            "Regular exercise and a well-balanced diet might also alleviate symptoms.",
+            "If symptoms are severe, talking to a mental health professional could be beneficial."
+          ]
+        },
+        {
+          "tag": "Conjunctivitis",
+          "patterns": [
+            "My eye is red, and it feels like there's something in it...",
+            "I've got a discharge from one eye and it's sticky...",
+            "My eyes are itchy and burning, and I've been waking up with crusty eyelashes..."
+          ],
+          "responses": [
+            "It sounds like you may have conjunctivitis. Keeping the eye area clean and avoiding touching or rubbing your eyes is important.",
+            "Avoid sharing towels or pillowcases, and wash your hands frequently to prevent the spread of infection.",
+            "Most cases of conjunctivitis are self-limiting, but if symptoms worsen or persist, seek advice from an eye care specialist."
+          ]
+        },
+        {
+          "tag": "Chronic Kidney Disease",
+          "patterns": [
+            "I feel more tired and have less energy these days...",
+            "I've noticed swelling in my feet and ankles...",
+            "I'm not hungry and have been losing weight without trying...",
+            "I have trouble thinking clearly and I'm often feeling sleepy..."
+          ],
+          "responses": [
+            "These symptoms could be signs of kidney function decline. It’s important to get your kidney function checked regularly.",
+            "Managing blood pressure and sugar levels is crucial in CKD. Following a kidney-friendly diet can also help slow down disease progression.",
+            "Seek guidance from a nephrologist who can provide specialized care and discuss potential treatment options."
+          ]
+        },
+        {
+          "tag": "Sinusitis",
+          "patterns": [
+            "I've been having persistent nasal congestion and pain in my face...",
+            "I feel pressure around my eyes, cheeks, and forehead...",
+            "My mucus is thick and yellow or green in color..."
+          ],
+          "responses": [
+            "These symptoms could suggest sinusitis, which is an inflammation of the sinuses.",
+            "Steam inhalation and staying hydrated can help alleviate the congestion.",
+            "If symptoms persist for more than a week, or you experience a high fever, consult a healthcare provider as you may need antibiotics."
+          ]
+        },
+        {
+          "tag": "Restless Leg Syndrome",
+          "patterns": [
+            "I have uncomfortable sensations in my legs and an irresistible urge to move them...",
+            "My leg discomfort gets worse in the evening or when I'm resting...",
+            "The creepy-crawly sensation in my legs temporarily improves with movement..."
+          ],
+          "responses": [
+            "These symptoms are characteristic of Restless Leg Syndrome.",
+            "Maintaining a regular sleep schedule and engaging in moderate exercise can help.",
+            "Certain medications and supplements may alleviate symptoms, so it's important to discuss these options with your healthcare provider."
+          ]
+        },
+        {
+          "tag": "Gout",
+          "patterns": [
+            "I have sudden and severe pain in my joints, especially the big toe...",
+            "The affected joint is swollen, warm, and red...",
+            "I can't bear anything to touch my joint because it's so tender..."
+          ],
+          "responses": [
+            "Gout is an inflammatory condition characterized by uric acid crystal buildup in joints.",
+            "During a flare-up, rest the affected joint and apply ice to reduce inflammation.",
+            "Maintain a diet low in purines and discuss medications with your doctor to manage uric acid levels."
+          ]
+        },
+        {
+          "tag": "Eczema",
+          "patterns": [
+            "My skin is itchy and has developed red, inflamed patches...",
+            "I've noticed dry, scaly skin that sometimes weeps clear fluid...",
+            "There are areas of my skin that have become rough and thickened..."
+          ],
+          "responses": [
+            "Eczema symptoms can often be managed with moisturizers and avoiding irritants.",
+            "Topical corticosteroids may relieve inflammation and itching. Consult with a dermatologist before use.",
+            "A healthcare provider can also recommend other treatments such as phototherapy or immunosuppressants for severe cases."
+          ]
+        },
+        {
+          "tag": "Thyroid Disorders",
+          "patterns": [
+            "I've noticed changes in my weight without any changes to my diet or exercise routine...",
+            "I'm feeling unusually tired and my hair is thinning...",
+            "I'm either feeling too hot or too cold when others seem comfortable..."
+          ],
+          "responses": [
+            "Thyroid disorders can disrupt metabolic rate and body temperature regulation.",
+            "Consider getting your thyroid hormone levels checked through a blood test.",
+            "Treatment for thyroid disorders often involves medication to normalize hormone levels. Consult an endocrinologist for tailored advice."
+          ]
+        },
+        {
+          "tag": "Mononucleosis",
+          "patterns": [
+            "I've been feeling extremely tired lately, even after resting...",
+            "My throat is sore, and I have swollen lymph nodes in my neck...",
+            "I've had a high fever and a headache for several days now..."
+          ],
+          "responses": [
+            "These symptoms can be indicative of mononucleosis, which is often caused by the Epstein-Barr virus.",
+            "Rest is crucial for recovery from mono. Also, stay hydrated and avoid strenuous activities, especially contact sports to prevent spleen injury.",
+            "Symptoms usually resolve on their own, but if they worsen or don't improve, seek medical advice."
+          ]
+        }
+    
+
+      ]
+    }
+    
